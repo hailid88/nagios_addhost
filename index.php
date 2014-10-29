@@ -9,7 +9,7 @@ function hideIndirectIP(){
 }
  if(document.getElementById("radio_indirect").checked){
  document.getElementById("indirectField").disabled =false;
- document.getElementById("directField").value = "10.40.63.25";
+ document.getElementById("directField").value = "***.***.*** remoteHostIP";               //replace remoteHostIP to the address of the host that can ping through the indirect hosts. 
 } 
 }
 </script>

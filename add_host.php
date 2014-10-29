@@ -62,14 +62,14 @@ fclose($myfile);
 
 # transfer to the remote file
 $local_file = '/tmp/new_host/new_remote_host.cfg';
-$remote_host = 'root@10.40.63.25:';
+$remote_host = 'root@remotehost_IP:';                                #change the remotehost ip address to the IP address of server, through which we ping other hosts that cannot be directly connected. 
 $remote_file = '/tmp/test.cfg';
-#$transfer_command = 'rsync -avh -e "ssh -i /var/www/.ssh/id_rsa" ' . $local_file . ' ' . $remote_host . $remote_file;
+$transfer_command = 'rsync -avh -e "ssh -i /var/www/.ssh/id_rsa" ' . $local_file . ' ' . $remote_host . $remote_file;         #transfer the contents from local host to remote host. 
 echo "<pre>$transfer_command</pre>";
 $output = exec($transfer_command);
 echo "<pre>$output</pre>";
 
-#$local_command = "ssh root@10.41.20.219 service nagios restart";
+$local_command = "ssh root@localhost_IP service nagios restart";        #change the local_IP address to your monitoring server.    #Restart Nagios to make the changes be effective.        
 $output= exec($local_command);
 echo "<pre>$output</pre>";
 ?>
