@@ -2,17 +2,7 @@
 <body>
 <?php
 include("index.php");
-#echo "<h2>Your Input:</h2>";
-#echo $host_name;
-#echo "<br>";
-#echo $direct;
-#        hostgroups              $hostgroup
-#        icon_image              $icon_image
-#        icon_image_alt          $icon_image_alt
-#        statusmap_image         $statusmap_image
 
-
-#echo "Your input has successfully transferred!";
 
 echo "Your input has been ";
 
@@ -21,10 +11,7 @@ if(strcmp(trim($addRevise),"add")==0){
 }
 if(strcmp(trim($addRevise),"revise")==0){
    echo "Revised";
-   #need to go through all the confirmation file and find the right one and to revise it. 
 }
-
-
 
 
 $input = "define host{
