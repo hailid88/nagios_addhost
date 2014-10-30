@@ -15,6 +15,6 @@ yum install php-mbstring
 
 * Open the website of addhost (e.g. open Firefox - point to http://nagiosIPaddress/nagios_addhost/index.php)
 
-When not working as expected, send the source code of the website (Ctrl-U in Firefox) to hailid88@gmail.com for support :) 
+When not working as expected, send the source code of the website (Ctrl-U in Firefox) to hailid88@gmail.com for support.
 
 
