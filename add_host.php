@@ -64,7 +64,7 @@ fclose($myfile);
 $local_file = '/tmp/new_host/new_remote_host.cfg';
 $remote_host = 'root@remotehost_IP:';                                #change the remotehost ip address to the IP address of server, through which we ping other hosts that cannot be directly connected. 
 $remote_file = '/tmp/test.cfg';
-$transfer_command = 'rsync -avh -e "ssh -i /var/www/.ssh/id_rsa" ' . $local_file . ' ' . $remote_host . $remote_file;         #transfer the contents from local host to remote host. 
+$transfer_command = 'rsync -avh -e "ssh -i /var/www/.ssh/id_rsa" ' . $local_file . ' ' . $remote_host . $remote_file;         #transfer the contents from local host to remote host. public key, private key are generated from puttygen.
 echo "<pre>$transfer_command</pre>";
 $output = exec($transfer_command);
 echo "<pre>$output</pre>";

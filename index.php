@@ -106,17 +106,6 @@ function test_input($data) {
    Parent: <input type="text" name="parent" value="<?php echo $parent;?>">
    <span class="error"><?php echo $parentErr;?></span>
    <br><br>
-  <!-- Host Group: <input type="text" name="hostgroup" value="hostgroup">
-   <span class="error">i<?php echo $hostgroupErr;?></span>
-   <br><br>i
--->
-<!--   Contact Group: <select id="cmbContact" name="contact" onchange="document.getElementById('selected_text').value=this.options[this.selectedIndex].text">
-     <option value="0">admins</option>
-     <option value="1">dhl</option>
-     <option value="2">Toyota</option>
-     <option value="3">Nissan</option>
-</select> 
-   <br><br> -->
    <input type="submit" name="submit" value="Submit"> 
 </form>
 
