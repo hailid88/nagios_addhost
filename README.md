@@ -21,6 +21,7 @@ When not working as expected, send the source code of the website (Ctrl-U in Fir
 Usage
 ----------
 A user-friendly inerface is provided to users for adding or removing hosts from the system, where the interface is shown as follows:
+
 ![](https://github.com/hailid88/nagios_addhost/blob/master/web%20interface%20look.png)
 
 
