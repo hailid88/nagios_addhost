@@ -4,9 +4,6 @@ Nagios add host function is an initiative to create the application to enable us
 Installing
 ----------
 
-
-Apache / Addhost setup
-----
 Your webserver (e.g. Apache) needs to have PHP support enabled!
 Please make sure your PHP is version 5.2.0 and above :) (see phpinfo() php function)
 
