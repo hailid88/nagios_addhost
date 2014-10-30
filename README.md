@@ -10,10 +10,10 @@ Please make sure your PHP is version 5.2.0 and above :) (see phpinfo() php funct
 On some distributions you might need to install mbstring for PHP - like Fedora / RedHat:
 yum install php-mbstring
 
-1) copy the nagios_addhost directory into your Apache web folder
+![] copy the nagios_addhost directory into your Apache web folder
    (/var/www/ on Debian/Ubuntu, or /var/www/html/ on RedHat/CentOS)
 
-2) Open the website of addhost (e.g. open Firefox - point to http://nagiosIPaddress/nagios_addhost/index.php)
+![] Open the website of addhost (e.g. open Firefox - point to http://nagiosIPaddress/nagios_addhost/index.php)
 
 When not working as expected, send the source code of the website (Ctrl-U in Firefox) to hailid88@gmail.com for support :) 
 
